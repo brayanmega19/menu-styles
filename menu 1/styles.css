@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;1,500&family=Quicksand:wght@500&family=Urbanist:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F1F2EE;
+}
+
+header{
+    background-color: #24252A;
+}
+
+li, a, button{ 
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: gainsboro;
+    text-decoration: none;
+    background-color: #24252A;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.logo{
+    cursor: pointer;
+    max-width: 8em;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+.nav_links a:hover{
+    font-size: 1.1em;
+}
+a>button:hover{
+    color: #0088a9;
+    background-color: gainsboro;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
