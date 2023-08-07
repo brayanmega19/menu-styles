@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: system-ui;
+}
+.hero{
+    background-color: #074f57;
+    background-image: url("./assets/autumn.jpg");
+    color: white;
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    background-size: cover;
+    
+}
+.container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.header nav{
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+    background-color: black;
+}
+.header img{
+    width: 8rem;
+}
+.header li{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px 1rem; 
+}
+button{
+    
+    background-color: inherit;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 1.2  rem;
+}
+a, button{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+    font-weight:100;
+    font-size: 1.2rem;
+    position: relative;
+    
+}
+
+.links a:hover, button:hover{
+    font-size: 1.24rem;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.links a:active, button:active{
+    font-size: 1.17rem;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: grey;
+}
+
+a:after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.2s;
+}
+
+a:hover:after{
+    width: 100%;
+    
+}
+.readable{
+    width: 80%;
+    margin: 15px 30px;
+    padding: 1rem 2rem;
+    text-align: justify;
+}
+h2{
+    margin-bottom: 15px;
+}
