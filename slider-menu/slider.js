@@ -47,7 +47,7 @@ export default function slider(){
         $slides[i].classList.add("active");
     },3000)
 
-    let stopInterval = clearInterval(()=>{
+    let stopInterval = setTimeout(()=>{
         clearInterval(advance);
     },15000)
 }
